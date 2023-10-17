@@ -1,0 +1,29 @@
+.slider-main{
+    margin: 150px 0 0;
+}
+
+.pagination{
+    position: absolute;
+    bottom: 60px;
+    left: -5px;
+    z-index: 1;
+    margin: 0 15px;
+}
+
+.pagination .swiper-pagination-bullet-active{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid;
+}
+.pagination .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #011826;
+
+
+
+
+}

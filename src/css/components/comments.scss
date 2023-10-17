@@ -1,0 +1,88 @@
+.commnents{
+    margin-top: 150px;
+    h2{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    &-box{
+        -webkit-box-shadow: 0 3px 15px 5px rgba(0,0,0,.05);
+        -moz-box-shadow: 0 3px 15px 5px rgba(0,0,0,.05);
+        box-shadow: 0 3px 15px 5px rgba(0, 0, 0, 0.179);
+        padding: 20px;
+        border-top-right-radius: 60px;
+        border-top-left-radius:60px;
+        height: 300px;
+        position: relative;
+       background-image: url(../../img/bg-image.png);
+       
+        p{
+            color: #fff;
+        }
+        span{
+            color: #fff;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../../img/person.png);
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 75px;
+            height: 75px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+       
+    }
+}
+.comments-box-person{
+    text-align: center;
+    h4{
+        font-size: 26px;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+.commnents .swiper-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.testiomail{
+    width: 250px;
+    height: 250px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,150,190,1) 6%, rgba(0,212,255,1) 30%);
+}
+.comment-content{
+    text-align: center;
+  position: relative;
+  top: -5px;
+    background-color:  #fff;
+    -webkit-box-shadow: 0 3px 15px 5px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 3px 15px 5px rgba(0,0,0,.05);
+    box-shadow: 0 3px 15px 5px rgba(0, 0, 0, 0.179);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    p{
+    text-align: center;
+    color: #fff;
+    }
+}
+
+.comment-content img{
+    width: 75px;
+    height: auto;
+ 
+    display: block;
+    margin: 6px auto;
+}

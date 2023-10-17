@@ -1,0 +1,105 @@
+.contact-form {
+    margin-top: 150px;
+    position: relative;
+    padding-bottom: 35px;
+    position: relative;
+    h2{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    &-main{
+        h3{
+            color: #0065A3;
+            font-size: 35px;
+            line-height: 1.2em;
+        }
+        span{
+            color: black;
+            font-size: 28px;
+            display: block;
+            font-weight: bold;
+        }
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image:url(../../img/hospital.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+    }
+
+    form {
+        box-shadow: 0px 3px 16px 6px rgba(64, 64, 64, .2);
+        padding: 40px;
+        background-color: #fff;
+        input {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            outline: none;
+            border-color: #ced4da;
+            font-size: 13px;
+            margin-bottom: 1rem;
+        }
+
+        textarea {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            outline: none;
+            border-color: #ced4da;
+            font-size: 13px;
+            margin-bottom: 1rem;
+            resize: none;
+            height: 150px;
+        }
+        button{
+            width: 100%;
+            height: 50px;
+            line-height: 80px;
+            padding: 0;
+            border: 0;
+            border-radius: 0 5px 5px 0;
+            background-color: #0065a3;;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+.iti {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+}
